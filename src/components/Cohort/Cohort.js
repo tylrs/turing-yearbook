@@ -2,8 +2,9 @@ import React from 'react';
 import Person from '../Person/Person';
 import './Cohort.css';
 
-const cohort = () => {
-    let cohort = props.staff.map(member => <Person key={member.id} info={member}/>)
+const Cohort = (props) => {
+    console.log('hello', props)
+    let cohort = props.people.map(member => <Person key={member.id} info={member}/>);
     return (
         <main>
             {cohort}
