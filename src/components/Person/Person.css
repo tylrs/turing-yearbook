@@ -1,1 +1,10 @@
+img {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+}
 
+section {
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
