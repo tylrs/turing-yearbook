@@ -35,7 +35,8 @@ class AddStudent extends Component {
 
     render() {
         return (
-            <form>
+            <form className="student-card">
+                <h3>Add New Student</h3>
                 <label>Student Name</label>
                 <input 
                     type="text"
