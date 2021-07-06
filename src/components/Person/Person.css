@@ -1,12 +1,18 @@
 img {
-    position: absolute;
-    width: 2rem;
-    height: 2rem;
+    border-radius: 10px;
+    height: 50%;
+    width: 80%;
 }
 
 section {
     border: 1px solid black;
+    border-radius: 10px;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     grid-column-end: span 1;
     grid-row-end: span 1;
+    padding: 5% 4%;
 }
