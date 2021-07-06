@@ -1,4 +1,9 @@
 .cohort-container {
-    display: flex;
+    /* display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    grid-gap: 5px; */
+    display: grid;
+    gap: 10px; 
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
 }

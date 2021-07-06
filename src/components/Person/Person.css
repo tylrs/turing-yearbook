@@ -7,4 +7,6 @@ img {
 section {
     border: 1px solid black;
     background-color: whitesmoke;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
 }
