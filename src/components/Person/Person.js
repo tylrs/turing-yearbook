@@ -2,7 +2,7 @@ import React from 'react';
 import './Person.css';
 
 const Person = (props) => {
-    console.log(props)
+    // console.log(props)
     let {name, photo, quote, superlative} = props.info
     return (
         <section>

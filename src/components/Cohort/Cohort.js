@@ -4,12 +4,12 @@ import AddStudent from '../AddStudent/AddStudent';
 import './Cohort.css';
 
 const Cohort = (props) => {
-    console.log('hello', props)
+    // console.log('hello', props)
     let cohort = props.people.map(member => <Person key={member.id} info={member}/>);
     return (
         <main className="cohort-container">
             {cohort}
-            {props.type === 'students' && <AddStudent />}
+            {props.type === 'students' && <AddStudent addStudent={props.addStudent}/>}
         </main>
     )
         
