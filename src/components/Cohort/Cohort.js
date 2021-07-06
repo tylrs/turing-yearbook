@@ -6,7 +6,7 @@ const Cohort = (props) => {
     // console.log('hello', props)
     let cohort = props.people.map(member => <Person key={member.id} info={member}/>);
     return (
-        <main>
+        <main className="cohort-container">
             {cohort}
         </main>
     )

@@ -8,7 +8,7 @@ const Person = (props) => {
         <section>
             <img src={photo} alt={name}/>
             <h3>{name}</h3>
-            <p>{quote}</p>
+            <i>"{quote}"</i>
             <p>{superlative}</p>
         </section>
     )

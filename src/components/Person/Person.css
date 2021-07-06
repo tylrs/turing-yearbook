@@ -1,1 +1,18 @@
+img {
+    border-radius: 10px;
+    height: 50%;
+    width: 90%;
+}
 
+section {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    padding: 2% 1%;
+}
