@@ -1,5 +1,6 @@
 import React from 'react';
 import Person from '../Person/Person';
+import AddStudent from '../AddStudent/AddStudent';
 import './Cohort.css';
 
 const Cohort = (props) => {
@@ -8,6 +9,7 @@ const Cohort = (props) => {
     return (
         <main className="cohort-container">
             {cohort}
+            {props.type === 'students' && <AddStudent />}
         </main>
     )
         
