@@ -5,7 +5,7 @@ import './Cohort.css';
 
 const Cohort = (props) => {
     // console.log('hello', props)
-    let cohort = props.people.map(member => <Person key={member.id} info={member}/>);
+    let cohort = props.people.map(member => <Person type={props.type} key={member.id} info={member} deleteStudent={props.deleteStudent}/>);
     return (
         <main className="cohort-container">
             {cohort}
