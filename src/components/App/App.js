@@ -12,6 +12,13 @@ class App extends Component {
     }
   }
 
+  addStudent = (newStudent) => {
+    this.setState({
+      staff: this.state.staff,
+      students: [...this.state.students, newStudent]
+    })
+  }
+
   render() {
     return (
       <div className="App">
